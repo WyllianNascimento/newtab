@@ -1,0 +1,30 @@
+body {
+    margin: 0px;
+}
+
+header {
+    background: linear-gradient(45deg, white, blue );
+    padding: 15px;
+}
+
+img {
+    width: 250px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu a{
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+    margin-right: 15px;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+    color: orangered;
+}
