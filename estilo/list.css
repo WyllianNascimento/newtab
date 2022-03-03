@@ -1,9 +1,12 @@
 .lista {
     width: 100%;
+    border-collapse: collapse;
 }
 
-.lista tr:nth-child(1) {
+thead {
     vertical-align: top;
+    background-color: black;
+    color: white;
 }
 
 th, td {
