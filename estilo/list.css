@@ -1,0 +1,11 @@
+.lista {
+    width: 100%;
+}
+
+.lista tr:nth-child(1) {
+    vertical-align: top;
+}
+
+th, td {
+    text-align: center;
+}
