@@ -18,3 +18,7 @@
     display: inline-block;
     text-align: right;
 }
+
+.fomulario .linha-formulario {
+    margin-bottom: 15px;
+}
