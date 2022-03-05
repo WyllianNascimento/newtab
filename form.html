@@ -18,20 +18,22 @@
     </div>
     <section>
         <form class="formulario">
-            <div>
+            <div class="linha-formulario">
                 <label class="big-label" for="name">Nome:</label>
                 <input name="name" id="name" required type="text">
             </div>
-            <div>
+            <div class="linha-formulario">
                 <label class="big-label" for="fone">Telefone: </label>
                 <input name="fone" id="fone" required type="text">
             </div>
             <div>
                 <label>Experiência Prévia: </label>
-                <input type="radio" name="xp" id="xp-yes">
-                <label for="xp-yes">Sim</label>
-                <input type="radio" name="xp" id="xp-no">
-                <label for="xp-no">Não</label>
+                <div>
+                    <input type="radio" name="xp" id="xp-yes">
+                    <label for="xp-yes">Sim</label>
+                    <input type="radio" name="xp" id="xp-no">
+                    <label for="xp-no">Não</label>
+                </div>
             </div>
 
             <input type="button" value="Salvar">
