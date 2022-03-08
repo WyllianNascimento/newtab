@@ -11,9 +11,9 @@
     <header>
         <h1>Controle Financeiro</h1>
         <nav>
-            <a href="#">Dashboard</a>
-            <a href="#">Resumo</a>
-            <a href="#">Configurações</a>
+            <button class="nav"><a href="#">Dashboard</a></button>
+            <button class="nav"><a href="#">Resumo</a></button>
+            <button class="nav"><a href="#">Configurações</a></button>
         </nav>
     </header>
     <div>
@@ -21,7 +21,10 @@
             <div>
                 <h2>Nova Transação</h2>
                 <label for="transacao">Tipo de transação</label>
-                <input type="text" name="transacao" id="transacao" placeholder="Compra">
+                <select name="transacao" id="transacao">
+                    <option value="compra">Compra</option>
+                    <option value="venda">Venda</option>
+                </select>
             </div>
             <div>
                 <label for="mercadoria">Nome da mercadoria</label>
