@@ -58,3 +58,7 @@ input {
 select {
     margin: 5px;
 }
+
+table {
+    width: 40vw;
+}
