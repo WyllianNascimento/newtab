@@ -10,6 +10,7 @@
 
 header {
     background-color: gainsboro;
+    min-width: 262px;
 }
 
 h1 {
@@ -19,6 +20,7 @@ h1 {
 
 nav {
     text-align: right;
+    min-width: 262px;
 }
 
 .nav {
