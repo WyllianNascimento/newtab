@@ -9,7 +9,6 @@
 }
 
 header {
-    position: absolute;
     width: 411px;
     height: 60px;
     left: 0px;
@@ -18,18 +17,47 @@ header {
 }
 
 form {
-    position: absolute;
     width: 371px;
     height: 290px;
     top: 110px;
     left: 20px;
 }
 
+select {
+    height: 32px;
+    width: 371px;
+    left: 0%;
+    right: 0%;
+    top: 25px;
+    border: 1px solid #979797;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
 .nv {
-    position: absolute;
     height: 32px;
     width: 371px;
     left: 0px;
     right: 0px;
     top: 24px;
+    border: 1px solid #979797;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.botao {
+    width: 371px;
+    height: 32px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
 }
