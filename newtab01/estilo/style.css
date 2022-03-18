@@ -18,5 +18,18 @@ header {
 }
 
 form {
+    position: absolute;
     width: 371px;
+    height: 290px;
+    top: 110px;
+    left: 20px;
+}
+
+.nv {
+    position: absolute;
+    height: 32px;
+    width: 371px;
+    left: 0px;
+    right: 0px;
+    top: 24px;
 }
