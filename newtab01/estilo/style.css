@@ -16,6 +16,28 @@ header {
     background: #e0e0e0;
 }
 
+img {
+    position: absolute;
+    width: 30px;
+    height: 27.6px;
+    top: 15px;
+    left: 22px;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    left: calc(50% - 411px/2);
+    top: calc(50% - 43px/2 + 0.5px);
+}
+
+.nav {
+    text-align: right;
+}
+
 form {
     width: 371px;
     height: 290px;
